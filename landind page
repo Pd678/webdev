@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prasad Dhotre - Landing Page</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background: #4CAF50;
+            color: #fff;
+            border-radius: 8px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        main {
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .intro h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .intro p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background: #45a049;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #4CAF50;
+            color: #fff;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to Prasad Dhotre's Landing Page</h1>
+            <p>Your gateway to innovation and excellence.</p>
+        </header>
+        <main>
+            <section class="intro">
+                <h2>About Me</h2>
+                <p>Hi, I'm Prasad Dhotre, a passionate developer with a knack for creating unique digital experiences. Let's explore what we can achieve together.</p>
+                <button id="cta-button">Get Started</button>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Prasad Dhotre. All rights reserved.</p>
+        </footer>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const button = document.getElementById('cta-button');
+            
+            button.addEventListener('click', () => {
+                alert('Thanks for clicking! Let\'s get started.');
+            });
+        });
+    </script>
+</body>
+</html>
